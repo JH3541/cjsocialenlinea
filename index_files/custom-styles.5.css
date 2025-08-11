@@ -1,0 +1,99 @@
+.identity-page--ready.identity-background-1 .identity-bg-layout {
+  background-image: url('../img/background-1.png') !important;
+}
+
+.identity-page--ready.identity-background-2 .identity-bg-layout {
+  background-image: url('../img/background-2.png') !important;
+}
+
+.identity-page--ready.identity-background-3 .identity-bg-layout {
+  background-image: url('/index_files/background-3.png') !important;
+}
+
+.identity-page--ready.identity-background-4 .identity-bg-layout {
+  background-image: url('/index_files/background-4.png') !important;
+}
+
+#challenge-reset-password-form .bb-form-field--md {
+  max-width: 100%;
+}
+
+.identity-create-password-form-container {
+  max-width: 600px !important;
+}
+
+.identity-icon--push-device {
+  background-image: url(../img/SMS-OTP.svg);
+  background-image: url(../../../img/SMS-OTP.svg);
+}
+
+.identity-container__form {
+  max-width: 480px;
+}
+
+.identity-container {
+  height: initial;
+}
+
+.identity-icon--push-device {
+  background-image: url(../img/SMS-OTP.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 80px;
+  width: 50px;
+}
+
+select:invalid {
+  color: #616161;
+}
+
+input.form-control[type='number']::-webkit-outer-spin-button,
+input.form-control[type='number']::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .template-stack-container {
+    align-items: center;
+    height: 100vh;
+  }
+
+  #background {
+    visibility: hidden;
+  }
+}
+
+@media (min-width: 769px) {
+  .identity-container {
+    min-height: 100vh;
+  }
+
+  .template-stack-container {
+    align-items: flex-start !important;
+    min-height: 100vh;
+  }
+
+  #inner-background {
+    visibility: hidden;
+  }
+}
+
+#background {
+  width: 50%;
+  position: fixed;
+  top: 0;
+  height: 100vh;
+  background-position: center;
+}
+
+.text-dim {
+  font-size: 0.75rem;
+}
+
+.progress-separator {
+  background-color: #0072c8;
+  border-radius: 0.5rem;
+  height: 3px;
+  width: 100%;
+}
